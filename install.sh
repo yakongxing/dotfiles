@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-set -xe
 # zsh
 ## install zinit
 if [ ! -d ~/.zinit ];then
