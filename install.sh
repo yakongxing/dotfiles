@@ -2,7 +2,7 @@
 # zsh
 ## install zinit
 if [ ! -d ~/.zinit ];then
-	sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
+	echo y | sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
 	cp .zshrc .zsh_aliases .docker-aliases .p10k.zsh ~
 fi
 
